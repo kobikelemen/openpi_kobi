@@ -37,6 +37,9 @@ dependencies = [
     "transformers==4.53.2",
     "rich>=14.0.0",
     "polars>=1.30.0",
+    # Pin HF datasets and pyarrow to versions compatible with lerobot schema parsing
+    "datasets==4.1.1",
+    "pyarrow==21.0.0",
 ]
 
 
